@@ -35,7 +35,10 @@ color: red;
 color: map-get($map: $colors, $key:rang1);
 }
 
-.boolean{} //>> true | flase
+.boolean{
+color: aqua;
+} 
+//>> true | flase
 //null // nothing value
 
 //null , Null differnt with each other
