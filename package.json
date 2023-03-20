@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  , "mycode" : "node-sass -o css scss/header.scss -w"
   },
   "keywords": [],
   "author": "",
