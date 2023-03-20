@@ -1,0 +1,13 @@
+{
+  "name": "frontstar-sass-term5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mycode" :"node-sass -o Section-1/css Section-1/scss/header.scss -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
