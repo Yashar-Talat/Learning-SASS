@@ -7,6 +7,12 @@ $font-size-small:10px;
 $font-size-mid:20px;
 $font-size-larg:80px;
 
+@mixin mymixin {
+    font-size: $font-size-larg;
+    color: blueviolet;
+    text-align: center;
+}
+
 .nav {
     background-color: aqua;
 
@@ -30,8 +36,7 @@ $font-size-larg:80px;
     background-color: chartreuse;
 
     h1 {
-        font-size: $font-size-larg;
-        color: blueviolet;
+        @include mymixin();
     }
 
     p {
@@ -39,9 +44,16 @@ $font-size-larg:80px;
         color: crimson;
         transition: 0.3s;
         cursor: pointer;
+
         &:hover {
             color: black;
             font-size: 25px;
         }
+    }
+}
+
+.footer {
+    h3 {
+        @include mymixin();
     }
 }

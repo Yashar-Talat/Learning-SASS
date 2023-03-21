@@ -20,6 +20,7 @@
 .banner h1 {
   font-size: 80px;
   color: blueviolet;
+  text-align: center;
 }
 .banner p {
   font-size: 20px;
@@ -30,4 +31,10 @@
 .banner p:hover {
   color: black;
   font-size: 25px;
+}
+
+.footer h3 {
+  font-size: 80px;
+  color: blueviolet;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
