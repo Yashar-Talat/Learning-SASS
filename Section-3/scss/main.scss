@@ -1,0 +1,14 @@
+$color-first:aqua;
+$color-second:greenyellow;
+$color-third:red;
+
+.nav {
+    background-color: $color-first;
+}
+.banner h1 {
+    color: $color-second;
+}
+
+.footer h3 {
+    color: $color-third;
+}
