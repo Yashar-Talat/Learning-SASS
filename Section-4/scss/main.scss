@@ -1,3 +1,47 @@
-body {
-    color: #000;
+$color-first:red;
+$color-second:greenyellow;
+$color-third:aqua;
+$color-test:yellow;
+
+$font-size-small:10px;
+$font-size-mid:20px;
+$font-size-larg:80px;
+
+.nav {
+    background-color: aqua;
+
+    ul li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        transition: 0.3s;
+        color: $color-first;
+
+        &:hover {
+            color: black;
+            font-size: $font-size-mid;
+        }
+    }
+}
+
+.banner {
+    background-color: chartreuse;
+
+    h1 {
+        font-size: $font-size-larg;
+        color: blueviolet;
+    }
+
+    p {
+        font-size: $font-size-mid;
+        color: crimson;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+            color: black;
+            font-size: 25px;
+        }
+    }
 }
