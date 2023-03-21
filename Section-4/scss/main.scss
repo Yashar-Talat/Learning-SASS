@@ -7,8 +7,8 @@ $font-size-small:10px;
 $font-size-mid:20px;
 $font-size-larg:80px;
 
-@mixin mymixin {
-    font-size: $font-size-larg;
+@mixin mymixin($font-size:25px) {
+    font-size: $font-size;
     color: blueviolet;
     text-align: center;
 }
@@ -36,7 +36,7 @@ $font-size-larg:80px;
     background-color: chartreuse;
 
     h1 {
-        @include mymixin();
+        @include mymixin($font-size-larg);
     }
 
     p {
