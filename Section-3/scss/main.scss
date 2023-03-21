@@ -6,9 +6,12 @@ $color-third:red;
     background-color: $color-first;
 }
 .banner h1 {
-    color: $color-second;
+    // $color-test:rgb(255, 251, 0);
+    $color-test:rgb(255, 157, 0) !global;
+    color: $color-test;
 }
 
 .footer h3 {
-    color: $color-third;
+    // color: $color-third;
+    color: $color-test;
 }
