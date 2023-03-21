@@ -2,6 +2,9 @@ $color-first:aqua;
 $color-second:greenyellow;
 $color-third:red;
 
+$font-size-large:80px;
+$font-size-small:10px;
+
 .nav {
     background-color: $color-first;
 }
@@ -9,9 +12,11 @@ $color-third:red;
     // $color-test:rgb(255, 251, 0);
     $color-test:rgb(255, 157, 0) !global;
     color: $color-test;
+    font-size: $font-size-large;
 }
 
 .footer h3 {
     // color: $color-third;
     color: $color-test;
+    font-size: $font-size-small;
 }
