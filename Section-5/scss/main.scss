@@ -25,3 +25,22 @@ $font-size-larg:80px;
         }
     }
 }
+
+.heading {
+    color: $color-first;
+    background-color: $color-second;
+    font-size: $font-size-mid;
+    text-align: center;
+}
+
+.h1 {
+    @extend .heading;
+}  
+
+
+.footer {
+    h3 {
+        // @extend .banner h1; // False
+        @extend .h1;
+    }
+}
