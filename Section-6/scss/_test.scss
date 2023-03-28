@@ -1,0 +1,41 @@
+.numbers {
+    font-weight: 200;
+    font-size: 25px; //em,rem
+    line-height: 1.5; //decimal
+}
+
+.string {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; //string
+    font-style: italic; //string
+}
+
+.colors {
+    color: red;
+    background-color: rgb(red, green, blue);
+    outline: hsla(hue, saturation, lightness, alpha);
+}
+
+.lists {
+    margin: 10px 15px 5px 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+//maps
+$colors : (
+    rang1:red,
+    water:blue,
+    rang3:green
+    );
+
+.p {
+color: red;
+}
+.h-1 {
+color: map-get($map: $colors, $key:rang1);
+}
+
+.boolean{} //>> true | flase
+//null // nothing value
+
+//null , Null differnt with each other
