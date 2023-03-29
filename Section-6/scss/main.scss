@@ -1,0 +1,61 @@
+$color-first:red;
+$color-second:greenyellow;
+$color-third:aqua;
+$color-test:yellow;
+
+$font-size-small:10px;
+$font-size-mid:20px;
+$font-size-larg:80px;
+
+@function treeplleXLarge($font-size : 10px) {
+    @return $font-size * 3;
+}
+
+.nav {
+    background-color: lighten($color: orange, $amount: 25%);
+
+    ul li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        transition: 0.3s;
+        color: $color-first;
+
+        &:hover {
+            color: black;
+            font-size: $font-size-mid;
+        }
+    }
+}
+
+.heading {
+    color: $color-first;
+    background-color: $color-second;
+    font-size: $font-size-mid;
+    text-align: center;
+}
+
+.h1 {
+    @extend .heading;
+
+    &:hover {
+        color: black;
+        font-size: 30px;
+    }
+}
+
+
+.footer {
+    h3 {
+        // @extend .banner h1; // False
+        @extend .h1;
+    }
+}
+
+.banner {
+    p {
+        font-size: treeplleXLarge($font-size-small);
+    }
+}
