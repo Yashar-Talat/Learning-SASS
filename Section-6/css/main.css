@@ -1,3 +1,9 @@
+p {
+  color: greenyellow;
+  background-color: red;
+  font-size: 14px;
+}
+
 .nav {
   background-color: #ffd280;
 }
@@ -28,4 +34,5 @@
 
 .banner p {
   font-size: 30px;
+}/*# sourceMappingURL=main.css.map */n: center;
 }/*# sourceMappingURL=main.css.map */
