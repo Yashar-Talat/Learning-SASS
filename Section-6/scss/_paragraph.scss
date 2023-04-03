@@ -9,7 +9,20 @@ $color:(
 
 @for $i from 1 to 6 {
     .paragraph-#{$i} {
-        background-color: blue;
-        font-size: 25px;
+        @if($i == 2) {
+            background-color: blueviolet;
+        }@else if ($i == 4) {
+            background-color: chartreuse;
+        }@else {
+            background-color: crimson;
+        }
+    }
+}
+
+$eachColors : red green yellow blue orange;
+
+@each $colors in $eachColors {
+    .paragraph-#{$colors} {
+        background-color: $colors;
     }
 }

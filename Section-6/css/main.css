@@ -1,26 +1,41 @@
 .paragraph-1 {
-  background-color: blue;
-  font-size: 25px;
+  background-color: crimson;
 }
 
 .paragraph-2 {
-  background-color: blue;
-  font-size: 25px;
+  background-color: blueviolet;
 }
 
 .paragraph-3 {
-  background-color: blue;
-  font-size: 25px;
+  background-color: crimson;
 }
 
 .paragraph-4 {
-  background-color: blue;
-  font-size: 25px;
+  background-color: chartreuse;
 }
 
 .paragraph-5 {
+  background-color: crimson;
+}
+
+.paragraph-red {
+  background-color: red;
+}
+
+.paragraph-green {
+  background-color: green;
+}
+
+.paragraph-yellow {
+  background-color: yellow;
+}
+
+.paragraph-blue {
   background-color: blue;
-  font-size: 25px;
+}
+
+.paragraph-orange {
+  background-color: orange;
 }
 
 .nav {

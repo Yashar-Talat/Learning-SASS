@@ -1,12 +1,12 @@
 body {
-  background-color: aqua;
+  background-color: red;
+}
+
+h1 {
+  font-size: 14px;
 }
 
 a {
   color: aqua;
-}
-
-h1 {
-  font-size: medium;
-}/*# sourceMappingURL=header.css.map */ospace;
+  font-family: "Courier New", Courier, monospace;
 }/*# sourceMappingURL=header.css.map */
