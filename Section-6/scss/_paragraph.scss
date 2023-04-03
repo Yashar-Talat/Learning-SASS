@@ -1,0 +1,15 @@
+
+$color:(
+    1:red,
+    2:green,
+    3:yellow,
+    4:blue,
+    5:greenyellow
+);
+
+@for $i from 1 to 6 {
+    .paragraph-#{$i} {
+        background-color: blue;
+        font-size: 25px;
+    }
+}
