@@ -23,6 +23,14 @@ $eachColors : red green yellow blue orange;
 
 @each $colors in $eachColors {
     .paragraph-#{$colors} {
-        background-color: $colors;
+        @if($colors == red) {
+            background-color: aqua;
+        }
+        @else if($colors == yellow){
+            background-color: blueviolet;
+        }
+        @else {
+            background-color: chartreuse;
+        }
     }
 }
